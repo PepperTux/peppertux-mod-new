@@ -1,5 +1,5 @@
 # PepperTux (0.7 Mod Version)
-Mod for SuperTux 0.6.0 named PepperTux. Please tell me if the license is wrong, I don't know what the proper license would be (maybe CC-BY-SA 4.0?)
+Mod for SuperTux 0.7.0 named PepperTux. Please tell me if the license is wrong, I don't know what the proper license would be (maybe CC-BY-SA 4.0?)
 
 Any new tiles added needs the image's horizontal size to be 128 or smaller so it's easy to add into the tiles.strf file, unless you add it to tiles.strf yourself. I'm not good at editing tiles.strf, even less good at it now.
 
