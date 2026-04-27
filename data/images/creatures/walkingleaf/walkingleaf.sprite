@@ -1,53 +1,55 @@
 (supertux-sprite
  (action
   (name "left")
-  (hitbox 2 4 31.8 31.8)
-  (images "left-0.png"
-		  "left-1.png"
-		  "left-2.png")
-  )
+  (hitbox 11 24 32 18)
+  (images "wl0.png"
+		  "wl1.png"
+		  "wl2.png"
+          "wl1.png")
+ )
  
  (action
   (name "right")
-  (hitbox 2 4 31.8 31.8)
+  (hitbox 11 24 32 18)
   (mirror-action "left")
  )
  
  (action
   (name "float-left")
-  (hitbox 2 4 31.8 31.8)
-  (images "left-0.png"
-		  "left-1.png"
-		  "left-2.png")
-  )
+  (hitbox 11 24 32 18)
+  (images "wl0.png"
+		  "wl1.png"
+		  "wl2.png"
+          "wl1.png")
+ )
  
  (action
   (name "float-right")
-  (hitbox 2 4 31.8 31.8)
+  (hitbox 11 24 32 18)
   (mirror-action "float-left")
  )
  
  (action
   (name "iced-left")
-  (hitbox 2 4 31.8 31.8)
-  (images "left-2.png")
+  (hitbox -2 1 64 45)
+  (images "wl0.png")
  )
  
  (action
   (name "iced-right")
-  (hitbox 2 4 31.8 31.8)
+  (hitbox -2 1 64 45)
   (mirror-action "iced-left")
  )
  
  (action
   (name "squished-left")
-  (hitbox 0 3 31.8 31.8)
+  (hitbox 11 24 32 18)
   (images "squished.png")
  )
 
  (action
   (name "squished-right")
-  (hitbox 0 3 31.8 31.8)
+  (hitbox 11 24 32 18)
   (mirror-action "squished-left")
  )
 )

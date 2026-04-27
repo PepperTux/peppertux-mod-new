@@ -68,10 +68,10 @@
     (icon "images/creatures/fish/forest/jump-0.png"))
   (object
     (class "viciousivy")
-    (icon "images/creatures/vicious_ivy/left-0.png"))
+    (icon "images/creatures/vicious_ivy/vi0.png"))
   (object
     (class "walkingleaf")
-    (icon "images/creatures/walkingleaf/left-0.png"))
+    (icon "images/creatures/walkingleaf/wl0.png"))
   (object
     (class "leafshot")
     (icon "images/creatures/leafshot/left-1.png"))
