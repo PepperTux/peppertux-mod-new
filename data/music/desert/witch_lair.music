@@ -1,0 +1,7 @@
+(supertux-music
+  (file "witch_lair.ogg")
+  (authors "SubspaceAudio")
+  (title "Witch's Lair")
+  (loop-begin 0)
+  (loop-at    -1)
+)

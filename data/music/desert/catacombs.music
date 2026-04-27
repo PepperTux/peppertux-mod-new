@@ -1,0 +1,7 @@
+(supertux-music
+  (file "catacombs.ogg")
+  (authors "SubspaceAudio")
+  (title "Catacombs")
+  (loop-begin 0)
+  (loop-at    -1)
+)

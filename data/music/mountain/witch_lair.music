@@ -1,0 +1,7 @@
+(supertux-music
+  (file "military_base.ogg")
+  (authors "SubspaceAudio")
+  (title "Military Base")
+  (loop-begin 0)
+  (loop-at    -1)
+)
