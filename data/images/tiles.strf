@@ -19,7 +19,7 @@
     (source "autotiles.satc")
   )
  
-   ;; next-id: 4327
+   ;; next-id: 4545
   
   ;; free/skipped ids (please use before any other): 101
   ;; No group ids are currently skipped! Delete this line if any are and replace it with said ids...
@@ -923,6 +923,13 @@
       1772 1773 0    0
       337  338  339  0
       340  341  342  0
+
+      4525 4526 4527 4528
+      4529 4530 4531 4532
+      4533 4534 4535 0
+      4536 4537 0    0
+      4538 4539 4540 4541
+      4542 4543 4544 0
     )
   )
   
@@ -6089,4 +6096,25 @@
     )
     (image "tiles/sand/palmtree.png")
   )
+
+  (tiles
+    (width  4)
+    (height 6)
+    (ids
+     4525 4526 4527 4528
+     4529 4530 4531 4532
+     4533 4534 4535 0
+     4536 4537 0    0
+     4538 4539 4540 4541
+     4542 4543 4544 0
+    )
+    (attributes
+     1 1 1 1
+     1 1 1 1
+     1 1 1 0
+     1 1 0 0
+     3 3 3 3
+     0 0 0 0
+    )
+    (image "tiles/castle/keep.png"))
 )
