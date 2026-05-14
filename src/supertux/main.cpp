@@ -849,7 +849,7 @@ Main::release_check()
   // Detect a potential new release of SuperTux. If a release, other than
   // the current one is indicated on the given web file, show a notification on the main menu screen.
   TransferStatusPtr status = m_downloader->request_string_download(
-    "https://raw.githubusercontent.com/SuperTux/addons/master/ver_info.nfo",
+    "https://raw.githubusercontent.com/PepperTux/addons/master/ver_info.nfo",
     m_version_info
   );
   status->then([this, status](bool success)
