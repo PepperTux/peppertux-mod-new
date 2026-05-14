@@ -1,7 +1,0 @@
-(supertux-music
-  (file "apocalypse.ogg")
-  (authors "SubspaceAudio")
-  (title "Apocalypse")
-  (loop-begin 0)
-  (loop-at    -1)
-)

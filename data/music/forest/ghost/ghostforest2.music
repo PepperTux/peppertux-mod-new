@@ -1,7 +1,8 @@
 (supertux-music
-  (file "voc-boss.ogg")
+  (file "ghostforest2.ogg")
   (authors "Marek \"Wansti\" Moeckel")
   (license "CC-BY-SA / GPL 2+")
+  (title "Ghost Forest 2")
   (loop-begin 0)
-  (loop-at    -1)
+  (loop-at    91)
 )
