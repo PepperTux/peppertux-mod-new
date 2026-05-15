@@ -316,55 +316,6 @@ std::string physfs_userdir = PHYSFS_getUserDir();
 #pragma GCC diagnostic pop
 #endif
 
-#ifndef __HAIKU__
-#ifdef _WIN32
-std::string olduserdir = FileSystem::join(physfs_userdir, PACKAGE_NAME);
-#else
-std::string olduserdir;
-// Extra safety check to ensure we can't move home.
-// See: https://bugs.gentoo.org/764959
-if (std::string(PACKAGE_NAME) == "")
-  olduserdir = FileSystem::join(physfs_userdir, ".peppertux2");
-else
-  olduserdir = FileSystem::join(physfs_userdir, "." PACKAGE_NAME);
-#endif
-if (FileSystem::is_directory(olduserdir)) {
-  std::filesystem::path olduserpath(olduserdir);
-  std::filesystem::path userpath(m_userdir);
-
-  std::filesystem::directory_iterator end_itr;
-
-  bool success = true;
-
-  // cycle through the directory
-  for (std::filesystem::directory_iterator itr(olduserpath); itr != end_itr; ++itr) {
-  try
-  {
-    std::filesystem::rename(itr->path().string().c_str(), userpath / itr->path().filename());
-  }
-  catch (const std::filesystem::filesystem_error& err)
-  {
-    success = false;
-    log_warning << "Failed to move contents of config directory: " << err.what() << std::endl;
-  }
-  }
-  if (success) {
-    try
-    {
-      std::filesystem::remove_all(olduserpath);
-    }
-    catch (const std::filesystem::filesystem_error& err)
-    {
-      success = false;
-      log_warning << "Failed to remove old config directory: " << err.what();
-    }
-  }
-  if (success) {
-    log_info << "Moved old config dir " << olduserdir << " to " << m_userdir << std::endl;
-  }
-}
-#endif
-
 #ifdef EMSCRIPTEN
   m_userdir = "/home/web_user/.local/share/peppertux2/";
 #endif
