@@ -1,0 +1,8 @@
+(supertux-music
+  (file "darkness_march.ogg")
+  (authors "Alexandr Zhelanov")
+  (license "CC-BY 4.0")
+  (title "Darkness March")
+  (loop-begin 0)
+  (loop-at    -1)
+)
