@@ -1,15 +1,15 @@
 (supertux-level
   (version 3)
   (name (_ "Jumping And Bouncing"))
-  (author "Sophie \"Vaesea\" Ball")
+  (author "Vaesea")
   (license "CC-BY-SA 4.0 International")
-  (target-time 68)
+  (target-time 50)
   (allow-item-pocket "inherit")
   (icon "")
   (icon-locked "")
   (statistics
     (enable-coins #t)
-    (enable-secrets #t)
+    (enable-secrets #f)
   )
   (sector
     (name "main")
@@ -302,6 +302,12 @@
       (z-pos 50)
       (x 10304)
       (y 736)
+      (glinting #f)
+    )
+    (jumpy
+      (z-pos 50)
+      (x 688)
+      (y 1664)
       (glinting #f)
     )
     (mriceblock
