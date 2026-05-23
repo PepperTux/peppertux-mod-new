@@ -14,22 +14,42 @@
   (sector
     (name "main")
     (ambient-light
-      (color 0.5 0.5 0.5)
+      (color 0.5 0.5 0.6)
     )
     (background
-      (scroll-offset-y -300)
-      (color 1 1 1)
-      (speed 0.25)
-      (image-top "/images/background/nightsky_top.png")
-      (image "/images/background/nightsky_middle.png")
-      (image-bottom "/images/background/nightsky_bottom.png")
-    )
-    (background
-      (color 1 1 1)
+      (color 1 1 1 0.85)
       (speed 0)
       (fill #t)
       (image "/images/background/misc/vignette.png")
       (z-pos 300)
+    )
+    (background
+      (color 1 1 1)
+      (alignment "top")
+      (scroll-speed-x -5)
+      (speed 0)
+      (image "/images/background/misc/skybox_night.png")
+      (z-pos -397)
+    )
+    (background
+      (color 1 1 1)
+      (alignment "top")
+      (scroll-speed-x -3)
+      (speed 0)
+      (image "/images/background/misc/clouds_night.png")
+      (z-pos -398)
+    )
+    (background
+      (color 1 1 1)
+      (speed 0)
+      (image "/images/background/misc/skybox_stars.png")
+      (z-pos -399)
+    )
+    (background
+      (color 0.1 0.1 0.15)
+      (alignment "bottom")
+      (speed 0.01)
+      (image "/images/background/antarctic/SnowMountains.png")
     )
     (camera
       (name "Camera")

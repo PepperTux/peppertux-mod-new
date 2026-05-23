@@ -91,7 +91,7 @@
     )
     (level
       (z-pos 50)
-      (level "night_mountain.stl")
+      (level "climbing_night_mountain.stl")
       (x 40)
       (y 71)
     )
