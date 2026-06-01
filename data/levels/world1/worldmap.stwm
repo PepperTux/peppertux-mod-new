@@ -37,7 +37,7 @@
     )
     (level
       (z-pos 50)
-      (level "platforms_icy_river.stl")
+      (level "platforms_icy_river_2.stl")
       (x 24)
       (y 77)
     )
