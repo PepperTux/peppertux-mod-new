@@ -32,6 +32,13 @@
       (image "/images/background/bluemountain/bluemountain-middle.png")
       (image-bottom "/images/background/bluemountain/bluemountain-bottom.png")
     )
+    (background
+      (color 1 1 1)
+      (scroll-speed-x -50)
+      (speed 1.5)
+      (image "/images/background/misc/light_clouds.png")
+      (z-pos 301)
+    )
     (bonusblock
       (z-pos 51)
       (count 3)
@@ -222,12 +229,12 @@
         (node
           (x 5536)
           (y 544)
-          (time 8)
+          (time 6)
         )
         (node
           (x 6304)
           (y 480)
-          (time 8)
+          (time 6)
         )
       )
     )

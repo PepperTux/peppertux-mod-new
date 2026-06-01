@@ -1,9 +1,9 @@
 # PepperTux (0.7 Mod Version)
 Mod for SuperTux 0.7.0 named PepperTux. Please tell me if the license is wrong, I don't know what the proper license would be (maybe CC-BY-SA 4.0?)
 
-Any new tiles added needs the image's horizontal size to be 128 or smaller so it's easy to add into the tiles.strf file, unless you add it to tiles.strf yourself. I'm not good at editing tiles.strf, even less good at it now.
+Any new tiles added needs the image's horizontal size to be 128 or smaller so it's easy to add into the tiles.strf file, unless you add it to tiles.strf yourself. I'm not good at editing tiles.strf.
 
-Run the "run_peppertux_portable.bat" file in the portable version of this mod to start playing the mod.
+Run the "run_peppertux_portable.bat" file in the portable version of this mod to start playing the mod, the other file is just the non-portable version which I don't recommend using because future versions of this mod will change some things in levels which means the save data could end up being messed up.
 
 ## Credits
 * Vaesea - Levels

@@ -43,6 +43,13 @@
       (image "/images/background/misc/arcticskies3.png")
       (z-pos 301)
     )
+    (background
+      (color 1 1 1)
+      (scroll-speed-x -50)
+      (speed 1.5)
+      (image "/images/background/misc/light_clouds.png")
+      (z-pos 302)
+    )
     (bonusblock
       (z-pos 51)
       (count 3)

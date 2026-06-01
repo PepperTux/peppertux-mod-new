@@ -127,17 +127,7 @@
          (fps 5.0)
 	 (loops 1)
          (hitbox 8 16 32 32)
-         (images "small/idle-0.png"
-                 "small/idle-1.png"
-                 "small/idle-0.png"
-		 "small/stand-0.png"
-		 "small/stand-0.png"
-		 "small/stand-0.png"
-		 "small/stand-0.png"
-		 "small/stand-0.png"
-		 "small/stand-0.png"
-		 "small/stand-0.png"
-		 "small/stand-0.png"))
+         (images "small/stand-0.png"))
 
        (action
          (name "small-idle-left")
@@ -453,9 +443,7 @@
          (name "big-idle-right")
          (fps 5.0)
          (hitbox 16 14 32 64)
-         (images "big/idle-0.png"
-                 "big/idle-1.png"
-                 "big/idle-0.png"))
+         (images "big/stand-0.png"))
 
        (action
          (name "big-idle-left")
